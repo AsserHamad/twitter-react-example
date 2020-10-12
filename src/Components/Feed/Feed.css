@@ -1,0 +1,51 @@
+.feed-container{
+    background-color: #15202B;
+    display: flex;
+}
+/* Left Container */
+
+.feed-left-container{
+    width: 20vw;
+    display: flex;
+    position: fixed;
+    height: 100vh;
+}
+
+.feed-twitter-icon {
+    color: #1DA1F2;
+    font-size: 2em;
+    padding: 2vh 5vw;
+}
+
+/* Middle Container */
+
+.feed-middle-container{
+    margin-left: 20vw;
+    width: 60vw;
+    border-right: #707070 1px solid;
+    border-left: #707070 1px solid;
+    overflow-y: hidden;
+}
+
+.feed-middle-home {
+    background-color: #15202B;
+    width: calc(60% - 44px);
+    font-weight: 900;
+    font-size: 1.3em;
+    padding: 15px 20px;
+    border-bottom: #707070 1px solid;
+    text-align: left;
+    position: fixed;
+}
+
+.feed-middle-content {
+    margin-top: 10vh;
+    overflow-x: hidden;
+}
+
+/* Right Container */
+
+.feed-right-container{
+    width: 20vw;
+    height: 100vh;
+}

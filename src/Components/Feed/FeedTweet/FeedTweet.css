@@ -1,0 +1,74 @@
+.feed-tweet-container {
+    width: 100%;
+    padding: 10px 20px;
+    border-bottom: 1px solid #707070;
+    display: flex;
+}
+
+/* Feed Image Shit */
+.feed-tweet-image {
+    /* width: 10%; */
+    margin-right: 0.9vw;
+}
+.feed-tweet-image > img {
+    width: 50px;
+    border-radius: 100px;
+}
+
+/* Feed Text Info */
+.feed-tweet-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+.feed-tweet-user-info {
+    display: flex;
+    height: 4vh;
+}
+.feed-tweet-user-displayName {
+    font-weight: bold;
+}
+.feed-tweet-user-username-date {
+    color: #AEAEAE;
+    font-size: 0.9em;
+    padding-left: 0.6vw;
+    padding-right: 0.4vw;
+}
+
+
+/* Feed Content */
+.feed-tweet-content {
+    margin-bottom: 10px;
+}
+.feed-tweet-content > img {
+    margin-top: 10px;
+    width: 94%;
+    border-radius: 17px;
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+/* Feed Interactions (Hearts, Retweets, etc...) */
+.feed-tweet-interaction {
+    display: flex;
+}
+
+.feed-tweet-interaction > div {
+    width: 25%;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    color: #AEAEAE;
+    text-align: center;
+}
+
+.feed-tweet-interaction > div > :nth-child(1) {
+    padding-right: 0.5em;
+    font-size: 0.9em;
+}
